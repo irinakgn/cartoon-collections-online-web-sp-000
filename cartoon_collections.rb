@@ -18,5 +18,5 @@ def find_the_cheese(c)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   c = cheese_types & c
-  c.length === 1 ? c[0]: nil
+  c.length > 0 ? c[0]: nil
 end
