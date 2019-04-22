@@ -1,5 +1,7 @@
 def roll_call_dwarves(c)
- puts "1. #{c[0]}"
+ c.each_with_index do |n,i|
+   puts "{i + 1}. #{n}"
+ end
 end
 
 def summon_captain_planet(c)
