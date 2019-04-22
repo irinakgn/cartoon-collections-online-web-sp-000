@@ -18,5 +18,6 @@ def find_the_cheese(c)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   c = cheese_types & c
-
-  c.lengthend
+  
+  c.length
+end
