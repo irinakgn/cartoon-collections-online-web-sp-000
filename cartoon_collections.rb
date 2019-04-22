@@ -16,9 +16,3 @@ def find_the_cheese(c)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
-
-class String
-  def titlecase
-    split(/([[:alpha:]]+)/).map(&:capitalize).join
-  end
-end
