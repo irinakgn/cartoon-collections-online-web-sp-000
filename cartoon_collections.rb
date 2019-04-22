@@ -5,7 +5,7 @@ def roll_call_dwarves(c)
 end
 
 def summon_captain_planet(c)
- c.map { |e| "#{e.split(/\s+/).each{ |word| word.capitalize! }.join(' ') 
+ c.map { |e| "#{e.split(/\s+/).each{ |word| word.capitalize! }.join(' ')
 }!"  }
 end
 
