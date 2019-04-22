@@ -5,7 +5,7 @@ def roll_call_dwarves(c)
 end
 
 def summon_captain_planet(c)
- c
+ c.map { |e| "#{e.titleize}!"  }
 end
 
 def long_planeteer_calls(c)
