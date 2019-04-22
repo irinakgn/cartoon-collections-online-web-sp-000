@@ -10,7 +10,7 @@ def summon_captain_planet(c)
 end
 
 def long_planeteer_calls(c)
- c.any? { |n| n.length < 4 }
+ !c.any? { |n| n.length < 4 }
 end
 
 def find_the_cheese(c)
