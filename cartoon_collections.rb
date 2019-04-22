@@ -1,5 +1,5 @@
 def roll_call_dwarves(c)
-  "#{c[0]}""
+  "#{c[0]}"
 end
 
 def summon_captain_planet(c)
