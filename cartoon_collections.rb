@@ -1,5 +1,5 @@
 def roll_call_dwarves(c)
-  # Your code here
+  c.each_with_index do {|n| puts n}
 end
 
 def summon_captain_planet(c)
