@@ -5,7 +5,8 @@ def roll_call_dwarves(c)
 end
 
 def summon_captain_planet(c)
- c.map { |e| "#{e.titlecase()}!"  }
+ c.map { |e| "#{e.split(/\s+/).each{ |word| word.capitalize! }.join(' ') 
+}!"  }
 end
 
 def long_planeteer_calls(c)
